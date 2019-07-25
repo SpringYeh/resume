@@ -2,7 +2,7 @@ $(function() {
 	var c = new Coder("style-text");
 	c.load("<p><div class='bef_comment writecode'>/**</div>");
 	c.load("<div class='bef_comment writecode'>&nbsp;*</div>");
-	c.load("<div class='bef_comment writecode'>&nbsp;*hi,欢迎来到一叶知秋 - 李嘉图的个人博客</div>");
+	c.load("<div class='bef_comment writecode'>&nbsp;*Hi,欢迎来到【一叶知秋】|李嘉图的个人博客</div>");
 	c.load("<div class='bef_comment writecode'>&nbsp;*我的梦想是天下大同</div>",2000);
 	c.load("<div class='bef_comment writecode'>&nbsp;*让我们来点实际的，看看我能做些什么</div>");
 	c.load("<div class='bef_comment writecode'>&nbsp;*/</div></p>");
