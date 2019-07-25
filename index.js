@@ -2,8 +2,8 @@ $(function() {
 	var c = new Coder("style-text");
 	c.load("<p><div class='bef_comment writecode'>/**</div>");
 	c.load("<div class='bef_comment writecode'>&nbsp;*</div>");
-	c.load("<div class='bef_comment writecode'>&nbsp;*Hello，我叫太傅，是一名计算机专业的学生</div>");
-	c.load("<div class='bef_comment writecode'>&nbsp;*我的主要工作是学习</div>",2000);
+	c.load("<div class='bef_comment writecode'>&nbsp;*hi,欢迎来到一叶知秋 - 李嘉图的个人博客</div>");
+	c.load("<div class='bef_comment writecode'>&nbsp;*我的梦想是天下大同</div>",2000);
 	c.load("<div class='bef_comment writecode'>&nbsp;*让我们来点实际的，看看我能做些什么</div>");
 	c.load("<div class='bef_comment writecode'>&nbsp;*/</div></p>");
 	c.load("<p><div class='bef_comment writecode'>/**</div>");
@@ -130,7 +130,7 @@ $(function() {
 	c.addClass(".value .bef_px","px");
 	c.load("<p><div class='comment writecode'>/**</div>");
 	c.load("<div class='comment writecode'>&nbsp;*现在我们差不多都准备好了</div>");
-	c.load("<div class='comment writecode'>&nbsp;*让我们最后再来做一些3D旋转</div>");
+	c.load("<div class='comment writecode'>&nbsp;*让我们最后再来做一个3D旋转</div>");
 	c.load("<div class='comment writecode'>&nbsp;*/</div></p>");
 	c.load("<p><div class='code writecode'><span class='selector'>#content</span> {</div>");
   	c.load("<div class='code writecode'>&nbsp;<span class='key'>-webkit-perspective</span>: <span class='value'>1000<span class='px'>px</span></span>;</div>");
@@ -158,7 +158,7 @@ $(function() {
   	c.load("<div class='code writecode'>}</div></p>");
   	c.load("<p><div class='comment writecode'>/**</div>");
 	c.load("<div class='comment writecode'>&nbsp;*现在我们差不多可以开始写我的简历了</div>");
-	c.load("<div class='comment writecode'>&nbsp;*我相信你来这不只是为了看这些漂亮的颜色</div>");
+	c.load("<div class='comment writecode'>&nbsp;*我相信你来此一定不只是为了看这些漂亮的颜色</div>");
 	c.load("<div class='comment writecode'>&nbsp;*/</div></p>");
 	c.addClass("#work-text","pre_work-text");
 	c.load("<p><div class='code writecode'><span class='selector'>pre</span><span class='key'>:not(#style-text)</span> { </div>");
@@ -168,21 +168,22 @@ $(function() {
 	var r = new Coder("work-text");
 	r.load("<div id='md'></div>");
 	var w = new Coder("md");
+
 	w.load("<h1 class='writecode'>简历</h1>");
-	w.load("<p><div class='writecode'>太傅</div>");
-	w.load("<div class='writecode'>学生</div>");
-	w.load("<div class='writecode'>伪ACMer / 咸鱼</div></p>");
+	w.load("<p><div class='writecode'>李嘉图</div>");
+	w.load("<div class='writecode'>上仙</div>");
+	w.load("<div class='writecode'>A salty fish</div></p>");
 	w.load("<h1 class='writecode'>联系</h1>");
 	w.load("<ul>");
-	w.load("<li class='writecode'>Mail:<a href='mailto:taifu@taifua.com' target='_blank'>taifu@taifua.com</li>");
-	w.load("<li class='writecode'>Blog:<a href='https://taifua.com/' target='_blank'>https://taifua.com/</a></li>");
-	w.load("<li class='writecode'>Studio:<a href='http://i.taifua.com/' target='_blank'>http://i.taifua.com/</a></li>");
+	w.load("<li class='writecode'>mail:cinzanoye@163.com</li>");
+	w.load("<li class='writecode'>blog:<a href='http://cinzano.club' target='_blank'>cinzano.club</a></li>");
+	w.load("<li class='writecode'>github:<a href='https://github.com/springyeh' target='_blank'>https://github.com/springyeh</a></li>");
 	w.load("</ul>");
 	w.load("<h1 class='writecode'>技能</h1>");
 	w.load("<ul>");
 	w.load("<li class='writecode'>擅长Ai、Fl、Br、Ae、Pr、Ps等软件的安装与卸载</li>");
 	w.load("<li class='writecode'>精通PHP、C、C＋＋、Java、Python等单词的拼写</li>");
-    w.load("<li class='writecode'>熟悉Windows、Linux、Mac、Android、IOS等系统的开关</li>");
+    w.load("<li class='writecode'>熟悉Windows、Linux、Mac、Android、iOS等系统设备的开关机</li>");
     w.load("<li class='writecode'>while(alive)</li>");
     w.load("<li class='writecode'>{</li>");
     w.load("<li class='writecode'>&nbsp;&nbsp;&nbsp;&nbsp;eat;</li>");
@@ -199,6 +200,7 @@ $(function() {
 	w.load("<li class='writecode'>但愿老死电脑间，不愿鞠躬老板前</li>");
 	w.load("<li class='writecode'>奔驰宝马贵者趣，公交自行程序员</li>");
 	w.load("</ul>");
+
 	c.load("<p><div class='comment writecode'>/**</div>");
 	c.load("<div class='comment writecode'>&nbsp;*左面的简历看起来不是太令人满意，让我们先给他来点动态渲染</div>");
 	c.load("<div class='comment writecode'>&nbsp;*/</div></p>");
@@ -267,8 +269,8 @@ $(function() {
 	c.load("<div class='comment writecode'>&nbsp;*这样基本上就差不多了</div>");
 	c.load("<div class='comment writecode'>&nbsp;*");
 	c.load("<div class='comment writecode'>&nbsp;*如果你想和我联系</div>");
-	c.load("<div class='comment writecode'>&nbsp;*QQ:22501926</div>");
-	c.load("<div class='comment writecode'>&nbsp;*Mail:taifu@taifua.com</div>");
+	c.load("<div class='comment writecode'>&nbsp;*QQ:1574788980</div>");
+	c.load("<div class='comment writecode'>&nbsp;*mail:cinzanoye@163.com</div>");
 	c.load("<div class='comment writecode'>&nbsp;*最后非常感谢您愿意花3分钟看完我的简历！</div>");
 	c.load("<div class='comment writecode'>&nbsp;*/</div></p>");
 
